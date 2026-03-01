@@ -14,11 +14,8 @@ Get Block-LoRA running in 5 minutes!
 ### Step 1: Install Python Dependencies
 
 ```bash
-pip install torch transformers peft datasets web3 requests numpy accelerate
-```
+Activate venv
 
-Or use requirements file:
-```bash
 pip install -r requirements.txt
 ```
 
@@ -51,7 +48,7 @@ Keep this running! You'll see 20 accounts with addresses and private keys.
 
 **Open Terminal 2:**
 ```bash
-python demo.py
+streamlit run app.py
 ```
 
 ## What to Expect

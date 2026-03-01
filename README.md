@@ -83,6 +83,25 @@ Keep this running. You should see 20 accounts with private keys.
 python demo.py
 ```
 
+## 🌐 Web Frontend
+
+For an interactive web interface with real-time monitoring and visualizations:
+
+```bash
+streamlit run app.py
+```
+
+Then open http://localhost:8501 in your browser.
+
+### Web Frontend Features:
+- 🎛️ **Interactive Configuration**: Adjust all parameters via UI
+- 📊 **Real-Time Monitoring**: Live progress bars and status updates
+- 📈 **Visualizations**: Trust score charts, acceptance rate analytics
+- 🎨 **Premium UI**: Modern dark theme with smooth animations
+- 📱 **Responsive Design**: Works on desktop and tablet
+
+See [FRONTEND.md](FRONTEND.md) for detailed usage guide.
+
 ## 📁 Project Structure
 
 ```
